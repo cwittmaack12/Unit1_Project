@@ -50,9 +50,7 @@ try:
     print("Invoices table was created successfully.")
 
    # commit the changes to the database using connection.commit()
-
     # print("Invoices table was created successfully.")
-
    # use cursor.execute to execute insert_invoices function
 
     cursor.execute(insert_invoices)
