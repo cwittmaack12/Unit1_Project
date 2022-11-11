@@ -42,10 +42,14 @@ try:
 
 #### write a function which loops through the product_revenue variable and creates two lists - one with product categories and one with total revenue values
 
+    # I tried to do this differently but with this structure couldn't figure out how to convert the decimal to an int.  Kept getting errors
+
+
     # product_categories = [cat[0] for cat in product_revenue]
     # total_revenue = [cat[1] for cat in product_revenue]
     # print(product_categories)
     # print(total_revenue)
+
 
     product_categories = []
     total_revenue = []
